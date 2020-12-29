@@ -1,0 +1,6 @@
+[submodule "xptools"]
+	path = xptools
+	url = ../xptools.git
+[submodule "log"]
+	path = log
+	url = ../logtools.git
