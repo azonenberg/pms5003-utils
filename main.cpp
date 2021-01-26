@@ -161,7 +161,7 @@ void ReadFrame(UART& uart)
 
 	//The sensor likes to repeat sample values but they don't actually represent new readings!
 	//Only save a reading if we have new data (not same as last one)
-	if( g_counts.empty() || (g_counts.back() != sample) )
+	//if( g_counts.empty() || (g_counts.back() != sample) )
 		g_counts.push_back(sample);
 
 	//reserved (ignore)
